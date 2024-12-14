@@ -23,6 +23,7 @@ Este repositório contém um projeto de uma aplicação web voltada para exibiç
 - **modal.js**: Lógica JavaScript para o modal.
 - **script.js**: Lógica JavaScript principal do projeto.
 - **style.css**: Estilos CSS principais do projeto.
+- **License**: Licença do Projeto.
 
 ### Diretório `src/notie-master`
 
@@ -31,7 +32,7 @@ Este repositório contém um projeto de uma aplicação web voltada para exibiç
 - **.eslintrc**: Configuração do ESLint.
 - **.gitignore**: Arquivos ignorados pelo Git.
 - **gulpfile.js**: Tarefas do Gulp para build e desenvolvimento.
-- **LICENSE.md**: Licença do projeto.
+- **LICENSE.md**: Licença do projeto do notie.js.
 - **package.json**: Dependências e scripts do projeto.
 - **README.md**: Documentação do projeto.
 - **src/notie.js**: Código fonte do `notie`.
