@@ -15,12 +15,28 @@ Este repositório contém um projeto de uma aplicação web voltada para exibiç
 
 ## 📂 Estrutura do Projeto
 
-- **`public/`**: Arquivos estáticos públicos, como imagens e favicon.
-- **`src/`**: Contém o código-fonte principal.
-  - **`components/`**: Componentes reutilizáveis da aplicação.
-  - **`pages/`**: Páginas principais da aplicação.
-  - **`services/`**: Funções para integração com APIs de filmes.
-  - **`styles/`**: Arquivos de estilização CSS.
+### Arquivos Principais
+
+- **index.html**: Arquivo HTML principal do projeto.
+- **keyExample.js**: Contém uma chave de API.
+- **modal.css**: Estilos CSS para o modal.
+- **modal.js**: Lógica JavaScript para o modal.
+- **script.js**: Lógica JavaScript principal do projeto.
+- **style.css**: Estilos CSS principais do projeto.
+
+### Diretório `src/notie-master`
+
+- **.babelrc**: Configuração do Babel.
+- **.eslintignore**: Arquivos ignorados pelo ESLint.
+- **.eslintrc**: Configuração do ESLint.
+- **.gitignore**: Arquivos ignorados pelo Git.
+- **gulpfile.js**: Tarefas do Gulp para build e desenvolvimento.
+- **LICENSE.md**: Licença do projeto.
+- **package.json**: Dependências e scripts do projeto.
+- **README.md**: Documentação do projeto.
+- **src/notie.js**: Código fonte do `notie`.
+- **src/notie.scss**: Estilos SCSS do `notie`.
+- **test.html**: Página de teste para o `notie`.
 
 ## 🖥️ Tecnologias Utilizadas
 
