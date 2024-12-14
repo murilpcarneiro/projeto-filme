@@ -4,7 +4,7 @@ Este repositório contém um projeto de uma aplicação web voltada para exibiç
 
 ## 🚀 Demonstração
 
-Acesse a aplicação ao vivo: [Projeto Filme](https://github.com/murilpcarneiro/projeto-filme/tree/main)
+- **Acesse o site: https://miriloflix.netlify.app/**
 
 ## 🛠️ Funcionalidades
 
@@ -26,11 +26,7 @@ Acesse a aplicação ao vivo: [Projeto Filme](https://github.com/murilpcarneiro/
 
 - **Frontend**: HTML, CSS e JavaScript
 - **APIs**: TMDB (The Movie Database)
-- **Estilização**: CSS puro ou frameworks (dependendo da implementação)
-
-## 🛜 Acesso e uso do projeto
-
-- **Acesse o site: https://miriloflix.netlify.app/**
+- **Estilização**: CSS puro e Bootstrap Icons
 
 ## 📄 Licença
 
