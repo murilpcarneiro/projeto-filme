@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #141414;
+  --light-primary: #181818;
+  --secondary-color: rgb(229, 9, 20);
+  --lightest-color: #fff;
+}
+
+#modal-overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  visibility: hidden;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+#modal-background {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+#modal-container {
+  z-index: 1;
+  background-color: var(--light-primary);
+  padding: 1rem 3rem;
+  border-radius: 10px;
+}
+
+#movie-title {
+  padding: 1rem 0;
+}
+
+#modal-body {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+#movie-poster {
+  border-radius: 10px;
+}
+
+#movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 300px;
+  padding-left: 2rem;
+}
+
+#add-to-list {
+  border: 3px solid var(--lightest-color);
+  padding: 0.3rem 0;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#add-to-list:focus,
+#add-to-list:hover {
+  background-color: var(--lightest-color);
+  color: var(--primary-color);
+}
