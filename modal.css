@@ -7,11 +7,12 @@
 
 #modal-overlay {
   display: flex;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100dvh;
+  height: auto;
+  min-height: 100dvh;
   justify-content: center;
   align-items: center;
 }
@@ -77,4 +78,44 @@
 #add-to-list:hover {
   background-color: var(--lightest-color);
   color: var(--primary-color);
+}
+
+@media (max-width: 700px) {
+
+  body {
+    overflow: visible;
+  }
+
+  main {
+    height: 100dvh;
+  }
+
+  #modal-container {
+    margin: 50px 30px 0 30px;
+  }
+
+  #modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #movie-info {
+    font-size: 110%;
+  }
+
+  #movie-plot {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #movie-cast {
+    margin-bottom: 1rem;
+
+  }
+
+  #movie-genre {
+    margin-bottom: 1rem;
+  }
 }

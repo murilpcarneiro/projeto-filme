@@ -14,7 +14,14 @@
 body {
   display: flex;
   flex-direction: column;
+  height: auto;
   min-height: 100dvh;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+main {
+  min-height: calc(100dvh - 56px);
 }
 
 button {
@@ -60,7 +67,7 @@ header>h2>i {
 
 
 .movie-year-wrapper>input {
-  max-width: 5rem;
+  max-width: 3rem;
 }
 
 .movie-name-wrapper>input {
@@ -128,4 +135,21 @@ main {
 .remove-btn:hover {
   background-color: var(--lightest-color);
   color: var(--primary-color);
+}
+
+
+@media (max-width: 600px) {
+
+  h2 {
+    font-size: 20px;
+  }
+
+  #search-container {
+    width: 65%;
+  }
+
+  .movie-name-wrapper label,
+  .movie-year-wrapper label {
+    font-size: 14px;
+  }
 }
