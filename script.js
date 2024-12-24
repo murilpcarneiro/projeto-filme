@@ -96,3 +96,9 @@ for (const movieInfo of movieList) {
 }
 
 searchBtn.addEventListener('click', searchBtnClickHandler);
+
+movieName.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    searchBtnClickHandler();
+  }
+})
