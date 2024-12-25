@@ -9,6 +9,9 @@ const moviePlot = document.getElementById("movie-plot");
 const movieCast = document.getElementById("cast");
 const movieGenre = document.getElementById("genre");
 
+const main = document.getElementById("main");
+const body = document.querySelector("body");
+
 const movieListContainer = document.getElementById("movie-list");
 
 // let movieList = [];
@@ -102,3 +105,21 @@ movieName.addEventListener('keypress', (e) => {
     searchBtnClickHandler();
   }
 })
+
+function updateBodyOverflow() {
+  if (main.clientHeight > (window.innerHeight - 30)) {
+    body.style.overflowY = 'auto';
+  } else {
+    body.style.overflowY = 'hidden';
+  }
+}
+
+// Chama a função quando a página é carregada
+window.addEventListener('load', updateBodyOverflow);
+
+// Chama a função quando a janela é redimensionada
+window.addEventListener('resize', updateBodyOverflow);
+
+// Chama a função quando o conteúdo do main é atualizado
+const observer = new MutationObserver(updateBodyOverflow);
+observer.observe(main, { childList: true, subtree: true });
