@@ -1,4 +1,4 @@
-# Projeto Filme
+# MiriloFlix
 
 Este repositório contém um projeto de uma aplicação web voltada para exibição de informações sobre filmes. A aplicação consome dados de APIs externas e apresenta uma interface amigável para explorar diferentes conteúdos.
 
